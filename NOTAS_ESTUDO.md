@@ -19,6 +19,3 @@ A EAP (Estrutura Analítica de Projeto) é uma ferramenta que decompõe um proje
 A EAP é hierárquica e organizacional, mostrando os módulos e subdivisões do projeto de forma macro. A lista de tarefas é linear e operacional, usada no dia a dia para executar o que foi planejado. Resumindo: a EAP planeja, a lista de tarefas executa.
 
 
-
-
-
