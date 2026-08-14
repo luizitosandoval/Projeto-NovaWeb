@@ -67,7 +67,7 @@ body {
   color: var(--color-dominante);
   line-height: 1.6;
 }
-
+```
 
 # 3. Estrutura de Pastas do Projeto
 
@@ -90,6 +90,4 @@ novaweb-projeto-inicial/
 - `/css/` — Folhas de estilo do projeto. Convenção sugerida: `style.css` (principal), `reset.css` (normalização), e arquivos modulares por componente ou seção (`header.css`, `footer.css`).
 - `/js/` — Scripts JavaScript do projeto. Convenção sugerida: `main.js` (entry point) e pasta `modules/` para componentes isolados.
 
----
-
-> Próximos passos sugeridos: definir logotipo oficial, criar arquivo CSS base aplicando as variáveis deste guia, e produzir um conjunto inicial de componentes (botão, card, navbar) seguindo as combinações de cor aqui documentadas.
+Próximos passos sugeridos: definir logotipo oficial, criar arquivo CSS base aplicando as variáveis deste guia, e produzir um conjunto inicial de componentes (botão, card, navbar) seguindo as combinações de cor aqui documentadas.
