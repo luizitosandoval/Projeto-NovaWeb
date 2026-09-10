@@ -1,0 +1,53 @@
+/* Seletor Universal: Zerando margin e padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletor de Classe: Estilizando o título principal */
+.titulo {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Seletor de ID: Aumentando o tamanho da fonte da descrição */
+#descricao {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+    color: #555;
+}
+
+/* Seletor de Classe: Estilizando os parágrafos simples */
+.paragrafo-simples {
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+/* Seletor de Descendente: Estilizando os links dentro do menu de navegação */
+nav a {
+    text-decoration: none;
+    color: #3498db;
+    margin: 0 10px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Estilizando o container nav para centralizar os links */
+nav {
+    text-align: center;
+    margin-top: 30px;
+}
