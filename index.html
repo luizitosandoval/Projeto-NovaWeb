@@ -12,19 +12,20 @@ turma: TDEE 1BA- 2026
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade Integrada - Aula 02 e Seletores CSS</title>
+    <title>NexTech - Início</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header id="topo">
         <div class="container">
-            <h1>Meu Site</h1>
+            <h1>NexTech</h1>
             <nav>
-                <ul>
+                <ul style="display: flex; align-items: center; gap: 20px;">
                     <li><a href="index.html">Início</a></li>
                     <li><a href="pages/produtos.html">Produtos</a></li>
                     <li><a href="pages/contato.html">Contato</a></li>
+                    <li><button id="themeToggle">🌓 Tema</button></li>
                 </ul>
             </nav>
         </div>
@@ -129,11 +130,13 @@ turma: TDEE 1BA- 2026
         </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="container">
-            <p>&copy; 2026 - Luiz Sandoval. <a href="#topo">Voltar ao topo</a></p>
+            <p>&copy; 2026 - Luiz Sandoval</p>
         </div>
     </footer>
 
+    <button id="backToTop" title="Voltar ao topo">↑</button>
+    <script src="js/script.js"></script>
 </body>
 </html>

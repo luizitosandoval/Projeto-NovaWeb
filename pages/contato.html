@@ -19,10 +19,11 @@ turma: TDEE 1BA- 2026
         <div class="container">
             <h1>NexTech - Contato</h1>
             <nav>
-                <ul>
+                <ul style="display: flex; align-items: center; gap: 20px;">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="produtos.html">Produtos</a></li>
                     <li><a href="contato.html">Contato</a></li>
+                    <li><button id="themeToggle">🌓 Tema</button></li>
                 </ul>
             </nav>
         </div>
@@ -38,17 +39,17 @@ turma: TDEE 1BA- 2026
                 <form style="display: flex; flex-direction: column; gap: 15px;">
                     <div style="display: flex; flex-direction: column; gap: 5px;">
                         <label for="nome" style="font-weight: 600; font-size: 14px;">Nome</label>
-                        <input type="text" id="nome" placeholder="Seu nome completo" style="padding: 10px; border: 1px solid var(--border-color); border-radius: 8px;">
+                        <input type="text" id="nome" placeholder="Seu nome completo" style="padding: 10px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-color); color: var(--text-main);">
                     </div>
 
                     <div style="display: flex; flex-direction: column; gap: 5px;">
                         <label for="email" style="font-weight: 600; font-size: 14px;">Email</label>
-                        <input type="email" id="email" placeholder="seu@email.com" style="padding: 10px; border: 1px solid var(--border-color); border-radius: 8px;">
+                        <input type="email" id="email" placeholder="seu@email.com" style="padding: 10px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-color); color: var(--text-main);">
                     </div>
 
                     <div style="display: flex; flex-direction: column; gap: 5px;">
                         <label for="msg" style="font-weight: 600; font-size: 14px;">Mensagem</label>
-                        <textarea id="msg" rows="5" placeholder="Como podemos ajudar?" style="padding: 10px; border: 1px solid var(--border-color); border-radius: 8px;"></textarea>
+                        <textarea id="msg" rows="5" placeholder="Como podemos ajudar?" style="padding: 10px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-color); color: var(--text-main);"></textarea>
                     </div>
 
                     <button type="button" class="btn" style="border: none; cursor: pointer; width: fit-content; padding: 12px 24px;">Enviar Mensagem</button>
@@ -75,9 +76,11 @@ turma: TDEE 1BA- 2026
 
     <footer>
         <div class="container">
-            <p><a href="#topo">Voltar ao topo da página</a></p>
+            <p>&copy; 2026 - NexTech</p>
         </div>
     </footer>
 
+    <button id="backToTop" title="Voltar ao topo">↑</button>
+    <script src="../js/script.js"></script>
 </body>
 </html>
