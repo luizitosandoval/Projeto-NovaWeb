@@ -15,108 +15,125 @@ turma: TDEE 1BA- 2026
     <title>Atividade Integrada - Aula 02 e Seletores CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:yellow;">
+<body>
 
-    <!-- ==============================================================================
-         CONTEÚDO DA ATIVIDADE ANTERIOR (AULA 02)
-         ============================================================================== -->
-    <ul>
-        <li><a href="https://www.google.com">Google.com</a></li>
-        <li><a href="https://www.bing.com">Bing.com</a></li>
-        <li><a href="https://www.x.com">X.com</a></li>
-        <li><a href="https://www.w3schools.com">W3Schools.com</a></li>
-    </ul>
+    <header id="topo">
+        <div class="container">
+            <h1>Meu Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="pages/produtos.html">Produtos</a></li>
+                    <li><a href="pages/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <h1>Meu Site</h1>
-    <p>Esse é meu site, já posso ser garoto de programa?</p>
+    <main class="container">
+        <!-- Conteúdo da Aula 02 -->
+        <section>
+            <ul>
+                <li><a href="https://www.google.com">Google.com</a></li>
+                <li><a href="https://www.bing.com">Bing.com</a></li>
+                <li><a href="https://www.x.com">X.com</a></li>
+                <li><a href="https://www.w3schools.com">W3Schools.com</a></li>
+            </ul>
 
-    <h2 style="color:blue;">Sobre Mim</h2>
-    <h3 style="text-align:center;">Biografia</h3>
-    <p>Sou o Sandoval, amo com putaria e trabalho como garoto de programas,.</p>
-    <p style="font-family:Arial;">Nas horas vagas, também sou gostoso.</p>
-    <p style="font-size:20px;">Me dá 10.</p>
-    <p style="background-color: lightgrey;">Não sei mais oq falar.</p>
+            <h1>Meu Site</h1>
+            <p>Esse é meu site, já posso ser garoto de programa?</p>
 
-    <h3>
-        <strong>Capitais do Brasil</strong>
-        <ul>
-            <li>São Paulo - SP</li>
-            <li>Brasília - DF</li>
-            <li>Goiânia - GO</li>
-            <li>Palmas - TO</li>
-        </ul>
-    </h3>
+            <h2 style="color:blue;">Sobre Mim</h2>
+            <h3 style="text-align:center;">Biografia</h3>
+            <p>Sou o Sandoval, amo com putaria e trabalho como garoto de programas,.</p>
+            <p style="font-family:Arial;">Nas horas vagas, também sou gostoso.</p>
+            <p style="font-size:20px;">Me dá 10.</p>
+            <p style="background-color: lightgrey;">Não sei mais oq falar.</p>
 
-    <h3>
-        Lista de Compras
-        <ol>
-            <li>Frango</li>
-            <li>Queijo</li>
-            <li>Pimenta</li>
-        </ol>
-    </h3>
+            <h3>
+                <strong>Capitais do Brasil</strong>
+                <ul>
+                    <li>São Paulo - SP</li>
+                    <li>Brasília - DF</li>
+                    <li>Goiânia - GO</li>
+                    <li>Palmas - TO</li>
+                </ul>
+            </h3>
 
-    <ol>
-        <li><img src="assets/icons/nerd emote.png" width="150"></li>
-        <li><img src="assets/icons/decepção.jpg" width="150"></li>
-        <li><img src="assets/icons/joia.jpg" width="150"></li>
-    </ol>
+            <h3>
+                Lista de Compras
+                <ol>
+                    <li>Frango</li>
+                    <li>Queijo</li>
+                    <li>Pimenta</li>
+                </ol>
+            </h3>
 
-    <hr>
-    <h2>Multimédia</h2>
-    <!-- Imagem com alt, largura 200px e borda preta -->
-    <img src="assets/icons/joia.jpg" alt="Imagem top" width="200" style="border:5px solid black;">
+            <ol>
+                <li><img src="assets/icons/nerd emote.png" width="150"></li>
+                <li><img src="assets/icons/decepção.jpg" width="150"></li>
+                <li><img src="assets/icons/joia.jpg" width="150"></li>
+            </ol>
 
-    <!-- Marquee deslizando para a direita com velocidade 10 -->
-    <marquee direction="right" scrollamount="10">Duvido me pegar!</marquee>
+            <hr>
+            <h2>Multimédia</h2>
+            <img src="assets/icons/joia.jpg" alt="Imagem top" width="200" style="border:5px solid black;">
 
-    <!-- Vídeo com controles, redimensionado e autoplay (muted) -->
-    <video width="320" height="240" controls autoplay muted>
-        <source src="assets/video.mp4" type="video/mp4">
-        Seu navegador não suporta a tag de vídeo.
-    </video>
+            <marquee direction="right" scrollamount="10">Duvido me pegar!</marquee>
 
-    <!-- Bloco 7: Estrutura Semântica e Organização -->
-    <section style="border: 2px solid black; margin: 20px;">
-        <h2>Sobre Mim</h2>
-        <p>Sou o Luiz Sandoval, o ultimo romântico, um homem lindo e inteligente.</p>
-        <p>Também sou o melhor aluno do senai.</p>
-    </section>
+            <video width="320" height="240" controls autoplay muted>
+                <source src="assets/video.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
 
-    <section style="border: 2px solid black; margin: 20px;">
-        <h2>Meus Interesses</h2>
-        <p>Me interesso no SENAI, com esses professores maravilhosos tão qualificados que eu tenho que vão me dar 10.</p>
-        <p>Brincadeiras a parte, estou me interessando muito no curso de Desenvolvimento de Sistemas e estou me aprofundando nisso.</p>
-    </section>
+            <section style="border: 2px solid black; margin: 20px;">
+                <h2>Sobre Mim</h2>
+                <p>Sou o Luiz Sandoval, o ultimo romântico, um homem lindo e inteligente.</p>
+                <p>Também sou o melhor aluno do senai.</p>
+            </section>
 
-    <hr>
+            <section style="border: 2px solid black; margin: 20px;">
+                <h2>Meus Interesses</h2>
+                <p>Me interesso no SENAI, com esses professores maravilhosos tão qualificados que eu tenho que vão me dar 10.</p>
+                <p>Brincadeiras a parte, estou me interessando muito no curso de Desenvolvimento de Sistemas e estou me aprofundando nisso.</p>
+            </section>
+        </section>
 
-    <!--
-         CONTEÚDO DA ATIVIDADE DE HOJE (SELETORES CSS)
-    -->
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Exemplos</a>
-        <a href="#">Referências</a>
-    </nav>
+        <hr>
 
-    <h1 class="titulo">Dominando os Seletores CSS</h1>
+        <!-- Conteúdo de Seletores CSS -->
+        <section>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Exemplos</a>
+                <a href="#">Referências</a>
+            </nav>
 
-    <p id="descricao">
-        Esta seção foi adicionada para a prática de seletores CSS, focando em classes, IDs e seletores de descendentes.
-    </p>
+            <h1 class="titulo">Dominando os Seletores CSS</h1>
 
-    <p class="paragrafo-simples">
-        O seletor de classe permite aplicar o mesmo estilo a múltiplos elementos simultaneamente, facilitando a manutenção do código.
-    </p>
+            <p id="descricao">
+                Esta seção foi adicionada para a prática de seletores CSS, focando em classes, IDs e seletores de descendentes.
+            </p>
 
-    <p class="paragrafo-simples">
-        Já o seletor de ID é único para cada página, sendo ideal para destacar elementos específicos que não se repetem.
-    </p>
+            <p class="paragrafo-simples">
+                O seletor de classe permite aplicar o mesmo estilo a múltiplos elementos simultaneamente, facilitando a manutenção do código.
+            </p>
 
-    <p class="paragrafo-simples">
-        Seletores de descendentes nos permitem ser mais precisos, estilizando apenas os elementos que estão dentro de um container específico.
-    </p>
+            <p class="paragrafo-simples">
+                Já o seletor de ID é único para cada página, sendo ideal para destacar elementos específicos que não se repetem.
+            </p>
+
+            <p class="paragrafo-simples">
+                Seletores de descendentes nos permitem ser mais precisos, estilizando apenas os elementos que estão dentro de um container específico.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - Luiz Sandoval. <a href="#topo">Voltar ao topo</a></p>
+        </div>
+    </footer>
 
 </body>
 </html>
