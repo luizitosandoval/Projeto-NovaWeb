@@ -3,21 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('themeToggle');
     const body = document.body;
 
-    // Verifica se existe preferência salva no localStorage
-    const currentTheme = localStorage.getItem('theme');
-    if (currentTheme === 'dark') {
-        body.classList.add('dark-mode');
-    }
-
     themeToggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
-
-        // Salva a preferência
-        if (body.classList.contains('dark-mode')) {
-            localStorage.setItem('theme', 'dark');
-        } else {
-            localStorage.setItem('theme', 'light');
-        }
     });
 
     // --- Botão Voltar ao Topo ---
