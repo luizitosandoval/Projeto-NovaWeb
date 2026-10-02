@@ -1,48 +1,48 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const loginForm = document.getElementById('loginForm');
+    const formularioLogin = document.getElementById('formularioLogin');
     const emailInput = document.getElementById('email');
-    const passwordInput = document.getElementById('password');
-    const emailError = document.getElementById('emailError');
-    const passwordError = document.getElementById('passwordError');
+    const senhaInput = document.getElementById('senha');
+    const erroEmail = document.getElementById('erroEmail');
+    const erroSenha = document.getElementById('erroSenha');
 
-    const validateEmail = (email) => {
+    const validarEmail = (email) => {
         const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(email);
     };
 
-    loginForm.addEventListener('submit', (event) => {
+    formularioLogin.addEventListener('submit', (event) => {
         let isValid = true;
 
-        // Reset error messages
-        emailError.textContent = '';
-        passwordError.textContent = '';
+        // Resetar mensagens de erro
+        erroEmail.textContent = '';
+        erroSenha.textContent = '';
 
-        // Email Validation
+        // Validação de E-mail
         const emailValue = emailInput.value.trim();
         if (!emailValue) {
-            emailError.textContent = 'O e-mail é obrigatório.';
+            erroEmail.textContent = 'O e-mail é obrigatório.';
             isValid = false;
-        } else if (!validateEmail(emailValue)) {
-            emailError.textContent = 'Por favor, insira um e-mail válido.';
+        } else if (!validarEmail(emailValue)) {
+            erroEmail.textContent = 'Por favor, insira um e-mail válido.';
             isValid = false;
         }
 
-        // Password Validation
-        const passwordValue = passwordInput.value;
-        if (!passwordValue) {
-            passwordError.textContent = 'A senha é obrigatória.';
+        // Validação de Senha
+        const senhaValue = senhaInput.value;
+        if (!senhaValue) {
+            erroSenha.textContent = 'A senha é obrigatória.';
             isValid = false;
-        } else if (passwordValue.length < 6) {
-            passwordError.textContent = 'A senha deve ter pelo menos 6 caracteres.';
+        } else if (senhaValue.length < 6) {
+            erroSenha.textContent = 'A senha deve ter pelo menos 6 caracteres.';
             isValid = false;
         }
 
         if (!isValid) {
             event.preventDefault();
         } else {
-            event.preventDefault(); // Prevent actual submission for this prototype
+            event.preventDefault(); // Previne o envio real para este protótipo
             alert('Login realizado com sucesso! (Simulação)');
-            console.log('Login Data:', { email: emailValue, password: passwordValue });
+            console.log('Dados de Login:', { email: emailValue, senha: senhaValue });
         }
     });
 });
