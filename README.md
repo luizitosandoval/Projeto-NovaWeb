@@ -50,17 +50,4 @@ A interface de login da NexTech foi desenvolvida buscando simplicidade, organiza
 
 - **Hierarquia Visual:**
   - Utilização de cabeçalhos fixos (sticky header) em tabelas extensas.
-<<<<<<< HEAD
   - Uso de zebra striping ou bordas sutis para facilitar a leitura das linhas.
-=======
-  - Uso de zebra striping ou bordas sutis para facilitar a leitura das linhas.
-
-### 2. Especificação do Protótipo (Figma)
-
-- **Link do Projeto no Figma:**  
-  [Cole o link do seu projeto aqui]
-
-- **Telas Desenvolvidas:**
-  1. **Perfil de Usuário:** Exibição de avatar, dados pessoais, formulário de edição e nível de permissão.
-  2. **Área de Consulta (Tabela):** Lista de usuários com busca, ordenação, paginação e ações de Editar/Excluir.
->>>>>>> 72b8b2377105c3611b1bbc0a2089169d04550863
