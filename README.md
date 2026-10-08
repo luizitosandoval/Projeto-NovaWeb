@@ -34,3 +34,29 @@ O botao principal "Entrar" possui maior destaque visual por ser a acao principal
 ## Conclusao
 
 A interface de login da NexTech foi desenvolvida buscando simplicidade, organizacao, usabilidade e acessibilidade, utilizando uma hierarquia visual clara e diferentes estados para orientar o usuario durante a autenticacao.
+
+## Aula 09: UX de Tabelas de Dados e Telas de Perfil
+
+### 1. Pesquisa Teórica - UX para Tabelas Corporativas
+
+- **Alinhamento de Dados:**
+  - Textos devem ser alinhados à esquerda.
+  - Números e valores monetários devem ser alinhados à direita.
+  - Status e ações rápidas podem ser centralizados.
+
+- **Filtros e Busca:**
+  - O campo de pesquisa principal deve ficar no topo da tabela para facilitar o acesso.
+  - Filtros avançados podem ser agrupados em menus suspensos (dropdowns) para economizar espaço.
+
+- **Hierarquia Visual:**
+  - Utilização de cabeçalhos fixos (sticky header) em tabelas extensas.
+  - Uso de zebra striping ou bordas sutis para facilitar a leitura das linhas.
+
+### 2. Especificação do Protótipo (Figma)
+
+- **Link do Projeto no Figma:**  
+  [Cole o link do seu projeto aqui]
+
+- **Telas Desenvolvidas:**
+  1. **Perfil de Usuário:** Exibição de avatar, dados pessoais, formulário de edição e nível de permissão.
+  2. **Área de Consulta (Tabela):** Lista de usuários com busca, ordenação, paginação e ações de Editar/Excluir.
