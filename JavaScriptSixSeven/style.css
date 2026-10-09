@@ -1,0 +1,26 @@
+body{
+    margin: 5px;
+    background-color: salmon;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+form {
+    background-color: #f2f2f2;
+    padding:5px;
+    display: flex;
+}
+
+form .form- control{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
