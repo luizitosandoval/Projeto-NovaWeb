@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexTech - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class="corpo-login">
+    <div class="container-login">
+        <div class="cartao-login">
+            <header>
+                <h1>NexTech</h1>
+                <p>Olá! Faz login pra entrar por favorzinho.</p>
+            </header>
+
+            <form id="formularioLogin" novalidate>
+                <div class="grupo-entrada">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="exemplo@email.com" required>
+                    <span class="mensagem-erro" id="erroEmail"></span>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                    <span class="mensagem-erro" id="erroSenha"></span>
+                </div>
+
+                <div class="opcoes-formulario">
+                    <a href="#" class="esqueceu-senha">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="botao-entrar">Entrar</button>
+
+                <div class="opcoes-rodape">
+                    <p>Não tem uma conta? <a href="#">Cadastre-se aqui</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
