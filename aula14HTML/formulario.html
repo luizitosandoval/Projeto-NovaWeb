@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextech - Formulário</title>
+    <link rel="stylesheet" href="/aula14HTML/formulario.css">
+    <script src="/aula14HTML/script.js" defer></script>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+
+    <form>
+        <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" autofocus>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="Idade">Idade:</label>
+            <input type="number" id="Idade" name="Idade" placeholder="Digite sua idade" disabled>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" readonly>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="enviar"></label>
+            <input type="button" id="enviar" name="enviar" value="Enviar">
+        </div>
+        <br>
+    </form>
+</body>
+</html>
