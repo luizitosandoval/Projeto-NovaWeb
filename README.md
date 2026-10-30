@@ -81,3 +81,10 @@ A interface de login da NexTech foi desenvolvida buscando simplicidade, organiza
 - **Hierarquia Visual:**
   - Utilização de cabeçalhos fixos (sticky header) em tabelas extensas.
   - Uso de zebra striping ou bordas sutis para facilitar a leitura das linhas.
+
+## 📂 Organização das Aulas (Linguagem de Marcação)
+  Para fins de comprovação de progresso, os arquivos estão organizados por aulas:
+  - **Tela de Login:** `/aulaHTML12/login.html`
+  - **Tela de Perfil:** `JavaScriptSixSeven/perfil.html`
+  - **Tela de Consulta/Tabela:** `tabelas67/aulaHTML11/tabela_simples.html`
+  - **Estilos e Assets:** Localizados nas respectivas pastas de aula e em `/assets`.
