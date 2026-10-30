@@ -2,8 +2,38 @@
 
 Repositório inicial estruturado durante o treinamento de versionamento.
 
-## Requisitos do Sistema 
+---
 
+## Entrega SA02 - Planejamento e Prototipagem
+
+### Links Rápidos
+- **Protótipo Figma (Alta Fidelidade):** (https://www.figma.com/design/x0Vc3TF5zSIfzATcvBYFiC/Paginas-Novaweb?node-id=0-1&t=nLqIRXta20bsmdZD-1)
+
+### Gestão de Recursos
+- **Recursos Humanos:** Desenvolvimento individual (estudante).
+- **Ferramentas Utilizadas:**
+  - **Design:** Figma (Prototipagem de Alta Fidelidade).
+  - **Versionamento:** Git e GitHub.
+  - **Editor de Código:** Visual Studio Code.
+  - **Assets:** Otimização de imagens para ambiente web.
+
+### Cronograma de Desenvolvimento (SA02)
+| Tarefa | Tempo Estimado | Status |
+| :--- | :---: | :---: |
+| Planejamento do Sistema | 2h | ✅ Concluído |
+| Criação de Cronograma e Prazos | 2h | ✅ Concluído |
+| Criação de Tela de Login (Desktop & Mobile) | 4h | 🟢 90% |
+| Criação de Tela de Perfil (Desktop & Mobile) | 4h | 🟢 90% |
+| Criação de Tela de Consulta/Tabela (Desktop & Mobile) | 5h | 🟢 90% |
+| Adição de Validações, Erros e Pesquisa | 3h | ✅ Concluído |
+| Interações e Fluxos no Figma | 2h | ✅ Concluído |
+| Otimização de Imagens e Organização de Assets | 1h | 🟢 90% |
+| Documentação do Projeto e README | 2h | 🟢 80% |
+| Atualização do GitHub e Revisão Final | 1h | ✅ Concluído |
+
+---
+
+## Requisitos do Sistema 
 
 # Projeto Nova-Web - Especificacoes de UI/UX
 
